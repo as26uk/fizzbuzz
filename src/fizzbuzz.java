@@ -18,7 +18,12 @@ public class fizzbuzz {
            } else {
                a = " ";
            }
-           System.out.println(i + " " + a);
+           if (a == " ") {
+               System.out.println(i + " " + a);
+           }
+           else {
+               System.out.println(a);
+           }
        }
     }
 }
