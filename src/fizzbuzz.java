@@ -1,9 +1,10 @@
 public class fizzbuzz {
     public static void main(String[] args) {
-       int n = 100;
+       int n = 30;
        String a = " ";
+       System.out.println(" ");
 
-       for (int i = 0;  i < n; i++) {
+       for (int i = 1;  i < n+1; i++) {
 
            if (i % 15 == 0) {
                a = "FizzBuzz";
