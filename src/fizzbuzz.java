@@ -1,6 +1,6 @@
 public class fizzbuzz {
     public static void main(String[] args) {
-       int n = 30;
+       int n = 100;
        String a = " ";
 
        for (int i = 0;  i < n;) {
@@ -17,11 +17,11 @@ public class fizzbuzz {
 
            } else {
                a = " ";
-           }
-           if (a == " ") {
-               System.out.println(i + " " + a);
-           }
-           else {
+
+           }if (a == " ") {
+               System.out.println(i);
+
+           } else {
                System.out.println(a);
            }
        }
